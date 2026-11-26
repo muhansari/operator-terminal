@@ -7,8 +7,9 @@
 <h1 align="center">Operator Terminal</h1>
 
 <p align="center">
-  <b>자리를 비운 사이, 누군가 당신의 맥에서 코딩을 시작합니다.</b><br>
-  <i>While you're away, someone starts coding on your Mac.</i>
+  <b>자리를 비운 사이, 누군가 당신의 컴퓨터에서 코딩을 시작합니다.</b><br>
+  <i>While you're away, someone starts coding on your computer.</i><br>
+  macOS · Windows
 </p>
 
 <p align="center">
@@ -26,7 +27,7 @@ Four terminal panes fill your screen with live code, build logs and system monit
 Then, out of nowhere, a phone rings — and your screen gets hacked.
 
 - 🆓 **완전 무료** · Completely free
-- 💻 **macOS 화면 보호기** · A native macOS screen saver
+- 💻 **macOS · Windows 화면 보호기** · A screen saver for macOS and Windows
 - 🔊 **효과음 직접 합성** (외부 음원 없음) · All sound effects are synthesized in code
 - 🧩 **해킹 장면 8종** · 8 animated hacking scenes
 
@@ -69,7 +70,8 @@ Without warning, the screen gets taken over — inside the main pane, or across 
 | **등장 빈도 조절** — 약 10분마다부터 1분마다까지 | **Adjustable frequency** — from every ~10 min to every minute |
 | **화면 잔상 방지** — 5분마다 배치가 바뀌고 화면이 미세하게 움직여요 | **Burn-in friendly** — layouts rotate and the image slowly drifts |
 | **구형 인텔 맥 배려** — 내장·외장 그래픽 전환 때 화면이 깨지지 않도록 설계 | **Kind to older Intel Macs** — designed to avoid glitches when switching GPUs |
-| **인텔 · 애플 실리콘 모두 지원** | **Runs on both Intel and Apple Silicon** |
+| **맥: 인텔 · 애플 실리콘 모두 지원** | **Mac: Intel and Apple Silicon** |
+| **윈도우 10 · 11 지원, 관리자 권한 없이 설치** | **Windows 10 · 11, no admin rights needed** |
 
 ---
 
@@ -77,12 +79,14 @@ Without warning, the screen gets taken over — inside the main pane, or across 
 
 **[⬇︎ Operator Terminal 최신 버전 받기 · Get the latest version](../../releases/latest)**
 
-- macOS 11 Big Sur 이상 · macOS 11 Big Sur or later
-- 파일 · File: `OperatorTerminal-1.0.dmg`
+| 운영체제 · OS | 파일 · File | 필요 · Requires |
+|---|---|---|
+| 🍎 macOS | `OperatorTerminal-1.0.dmg` | macOS 11 Big Sur 이상 · or later |
+| 🪟 Windows | `OperatorTerminal-1.0-Windows.zip` | Windows 10 · 11 |
 
 ---
 
-## 설치 · Install
+## 맥 설치 · Install on Mac
 
 1. 받은 `OperatorTerminal-1.0.dmg`를 엽니다.
    Open `OperatorTerminal-1.0.dmg`.
@@ -101,16 +105,30 @@ This is a free app by an individual developer without an Apple signature, so mac
 2. **시스템 설정 → 개인정보 보호 및 보안**으로 갑니다. · Open **System Settings → Privacy & Security**.
 3. 아래쪽 보안 항목의 **그래도 열기**를 누르고 암호를 입력합니다. · Click **Open Anyway** and enter your password.
 
-<!-- 실제 경고 창·설정 화면 캡처를 넣으면 훨씬 친절해집니다 -->
-<!-- <img src="images/gatekeeper.png" width="600"> -->
+---
+
+## 윈도우 설치 · Install on Windows
+
+1. 받은 `OperatorTerminal-1.0-Windows.zip`의 **압축을 풉니다**.
+   **Extract** `OperatorTerminal-1.0-Windows.zip`.
+2. **OperatorTerminal-Setup.exe**를 실행하고 **설치**를 누릅니다. 바로 화면 보호기로 지정됩니다.
+   Run **OperatorTerminal-Setup.exe** and click **Install**. It becomes your screen saver right away.
+3. **지금 실행해 보기**로 바로 확인할 수 있어요. · Click **Try now** to see it immediately.
+
+### ⚠️ "Windows의 PC 보호" 창이 뜰 때 · If Windows SmartScreen appears
+
+Microsoft 서명이 없어서 처음 한 번 파란 경고 창이 뜹니다. **추가 정보 → 실행**을 누르면 됩니다.
+
+It isn't signed by Microsoft, so a blue warning appears once. Click **More info → Run anyway**.
 
 ---
 
 ## 옵션 · Options
 
-시스템 설정 → 화면 보호기 → Operator Terminal → **옵션…**
-
-System Settings → Screen Saver → Operator Terminal → **Options…**
+- 맥: 시스템 설정 → 화면 보호기 → Operator Terminal → **옵션…**
+  Mac: System Settings → Screen Saver → Operator Terminal → **Options…**
+- 윈도우: 설정 → 개인 설정 → 잠금 화면 → 화면 보호기 → **설정…**
+  Windows: Settings → Personalization → Lock screen → Screen saver → **Settings…**
 
 <!-- 옵션 창 캡처를 넣으려면: <img src="images/options.png" width="560" alt="옵션 창"> -->
 
@@ -129,10 +147,12 @@ System Settings → Screen Saver → Operator Terminal → **Options…**
 
 You can remove it cleanly at any time.
 
-- **옵션 → 제거…** 버튼 · **Options → Uninstall…** button
+- **옵션 → 제거…** 버튼 (맥·윈도우 공통) · **Options → Uninstall…** (Mac & Windows)
 - 또는 **설치 도우미 → 제거** · or **Installer → Uninstall**
-- 또는 시스템 설정 → 화면 보호기에서 썸네일을 Control(⌃)+클릭 → **삭제**
-  or Control(⌃)-click its thumbnail in System Settings → Screen Saver → **Delete**
+- 맥: 시스템 설정 → 화면 보호기에서 썸네일을 Control(⌃)+클릭 → **삭제**
+  Mac: Control(⌃)-click its thumbnail in System Settings → Screen Saver → **Delete**
+- 윈도우: 설정 → 앱 → 설치된 앱 → **Operator Terminal (화면 보호기)** → 제거
+  Windows: Settings → Apps → Installed apps → **Operator Terminal** → Uninstall
 
 ---
 
@@ -143,8 +163,8 @@ You can remove it cleanly at any time.
 Sound is off by default. Turn on **Enable sound** in Options → Sound.
 
 **모니터가 여러 대예요. · I use multiple monitors.**
-화면마다 따로 돌아가고, 소리는 메뉴 막대가 있는 화면에서만 납니다.
-Each display runs on its own; sound plays only on the display with the menu bar.
+화면마다 따로 돌아가고, 소리는 주 모니터에서만 납니다.
+Each display runs on its own; sound plays only on the main display.
 
 **배터리를 많이 쓰나요? · Does it drain the battery?**
 그래픽 카드 대신 CPU로 가볍게 그리도록 만들었어요. 화면 보호기가 꺼지면 완전히 멈춥니다.
